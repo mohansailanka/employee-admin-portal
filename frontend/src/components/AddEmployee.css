@@ -1,0 +1,71 @@
+body {
+  background-color: #787676; /* Set your desired background color here */
+}
+/* Styles for the add-employee-form */
+.add-employee-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.add-employee-form h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.add-employee-form .p-float-label {
+  margin-bottom: 20px;
+}
+
+.add-employee-form .p-float-label .p-inputtext {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.add-employee-form .p-float-label label {
+  font-size: 14px;
+  color: #666;
+}
+
+.add-employee-form .p-float-label .p-inputtext:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.3);
+}
+
+.add-employee-form .btn-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.add-employee-form .p-button {
+  flex: 1;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 12px 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.add-employee-form .p-button:first-child {
+  background-color: #3498db;
+  color: #fff;
+  margin-right: 10px; /* Add margin to separate buttons */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add box-shadow */
+}
+
+.add-employee-form .p-button:last-child {
+  background-color: #ccc;
+  color: #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add box-shadow */
+}
